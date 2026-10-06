@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "subject": "Automaton AI Infosystem Pvt. Ltd.",
+    "website": "https://automatonai.com",
+    "crawl_date": "2026-09-29",
+    "method": "Public pages read with web_fetch; some pages were reachable only after they surfaced in web_search. Text is condensed and paraphrased, not verbatim.",
+    "usage_note": "Metrics, customer names and superlatives are the company's own marketing claims and are unverified. An agent should attribute them to the company (for example 'Automaton AI states...'). Fields under third_party come from outside sources and must not be presented as official."
+  },
+
+  "company": {
+    "legal_name": "Automaton AI Infosystem Pvt. Ltd.",
+    "tagline": "AI with Purpose, Progress with Precision",
+    "positioning_current": "Enterprise AI platform for LLMOps, DLOps, computer vision and GenAI with on-premise, air-gapped deployment (homepage and ADVIT Studio V2 page, April 2026).",
+    "positioning_legacy": "Full-stack AI company with a mission to democratize data, offering a deep learning platform, data labeling, custom AI apps and consultancy (2021-2025 pages, still linked in site navigation).",
+    "vision": "Democratize AI and make cutting-edge technology accessible for impactful innovation across industries.",
+    "mission": "Accelerate AI adoption through intuitive tools and collaborative expertise, delivering reliable solutions that turn complex challenges into opportunities.",
+    "summary": "Pune-based AI company. Flagship platform is ADVIT Studio (data labeling, training, LLMOps, deployment). Also offers ADAPT AI (AutoML), ADVIT AI Labs (education), managed data labeling, a pre-built model gallery, custom AI applications, AI consultancy and an annotated-dataset marketplace (Data Zoo). Builds AI labs to develop AI talent.",
+    "hq": "Hinjewadi, Pune, Maharashtra, India",
+    "differentiators_claimed": [
+      "On-premise and air-gapped deployment by default; data does not leave customer infrastructure",
+      "Aligned with India's DPDP Act and MeitY guidance; positioned for government procurement under Atmanirbhar Bharat",
+      "Full lifecycle in one platform rather than stitched-together tools",
+      "Built for deep learning and LLMs from the start rather than adapted from tabular MLOps tools",
+      "Support response SLA stated as under 2 hours; pilot scoping stated as under 2 weeks"
+    ]
+  },
+
+  "contact": {
+    "email_general": "info@automatonai.com",
+    "email_careers": "careers@automatonai.com",
+    "email_sales": "sales@automatonai.com (appears in a LinkedIn post, not on the website)",
+    "phones": ["+91 8698200400", "+1 (669) 238-6880"],
+    "address_footer": "410, Suratwala Mark Plazzo, Hinjewadi Village, Hinjewadi, Pune, Maharashtra 411057",
+    "address_connect_page": "801, Hinjawadi Village, Hinjawadi, Pimpri-Chinchwad, Maharashtra 411057",
+    "address_note": "The footer and Connect page give different addresses. Prefer the footer address, or say Hinjewadi, Pune.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/automaton-ai-infosystem-pvt-ltd",
+      "youtube": "https://www.youtube.com/channel/UCg3IISI6jwjyUKKjOUZ0isA",
+      "facebook": "https://www.facebook.com/automatonai/",
+      "x_twitter": "@automatonai"
+    },
+    "contact_form": {
+      "url": "https://automatonai.com/connect/",
+      "fields": ["First name", "Last name", "Email", "Contact number", "Company name", "Job title", "Country", "Company website", "Topic"],
+      "topics_connect_page": ["Schedule a demo", "Explore pricing for ADVIT Studio", "Discuss your AI problem statement", "Explore synergies"],
+      "topics_homepage": ["Demo", "Pricing", "Partnership", "AI Consultancy", "Other"]
+    },
+    "other_forms": ["ADVIT early-access signup (on the ADVIT product page)", "Data Zoo quote request (name, email, contact, dataset)", "Newsletter subscription on blog posts", "Join AI Community: https://automatonai.com/join-ai-community/"]
+  },
+
+  "people": [
+    {"name": "Bhushan Muthiyan", "role": "Founder", "bio": "Entrepreneur and technologist who leads the company, with a background in AI/ML and business strategy."},
+    {"name": "Mukesh Muthiyan", "role": "CTO", "bio": "Leads technology strategy and product innovation; over a decade of hands-on development experience."},
+    {"name": "Narendra Firodia", "role": "Investor", "bio": "Angel investor and adviser to the company."}
+  ],
+
+  "products": [
+    {
+      "id": "advit-studio",
+      "name": "ADVIT Studio",
+      "urls": ["https://automatonai.com/products/advit/", "https://automatonai.com/advit-studio-v2/"],
+      "category": "Platform",
+      "one_liner": "Unified DLOps and LLMOps workspace taking AI from data to production, on-premise or cloud.",
+      "lifecycle_stages": [
+        {"stage": "Data management", "covers": ["Ingest images, video, text, audio and sensor data", "Collaborative labeling", "Automated quality analysis", "Dataset versioning", "Synthetic data"]},
+        {"stage": "Feature engineering", "covers": ["Automated and manual pipelines", "Central feature store", "Consistent features across training and inference"]},
+        {"stage": "Training and optimisation", "covers": ["Distributed GPU training for DL and LLM workloads", "Hyperparameter tuning", "Experiment tracking", "RLHF pipelines", "LoRA and QLoRA fine-tuning"]},
+        {"stage": "Deployment and serving", "covers": ["One-click deploy to cloud, on-premise or edge", "ONNX and TensorRT optimisation", "Canary deployments, A/B testing, automated rollback", "Model versioning"]},
+        {"stage": "Monitoring and retraining", "covers": ["Drift detection", "Accuracy monitoring and anomaly alerts", "Automated retraining triggers", "Audit logs"]}
+      ],
+      "capabilities": [
+        "Model training with button clicks",
+        "Pre-trained models to speed up development and for auto-labeling",
+        "Data organisation and tracking",
+        "Run-time QA of labeling progress",
+        "User management",
+        "Cloud and on-premise deployment",
+        "Data distribution statistics",
+        "Integration with the customer's software stack",
+        "User-specific data export",
+        "Custom model integration via API",
+        "White-labeled platform option",
+        "Agentic AI infrastructure: RAG pipeline management, tool orchestration, agent memory, multi-agent coordination (V2 page)",
+        "Edge AI deployment to NVIDIA Jetson and custom hardware with quantisation and pruning (V2 page)",
+        "Enterprise governance: RBAC, AES-256 encryption, TLS 1.3, DPDP compliance, audit logging, data residency controls, air-gapped deployment (V2 page)"
+      ],
+      "frameworks": {
+        "older_page": ["TensorFlow", "PyTorch", "Keras", "Darknet"],
+        "v2_page": ["PyTorch", "TensorFlow", "ONNX", "TensorRT", "Hugging Face", "JAX"]
+      },
+      "deployment_targets": ["AWS", "Azure", "GCP", "On-premise", "NVIDIA Jetson", "Custom SoC", "Hybrid (Docker/Kubernetes with GPU pass-through)"],
+      "data_sources": ["S3", "Azure Blob", "HDFS", "RTSP streams", "PostgreSQL", "MongoDB"],
+      "apis": ["REST", "gRPC", "CLI", "Python SDK", "Webhooks"],
+      "plans": ["Individual", "Team", "Enterprise"],
+      "pricing": "Not published. Direct to the Connect form (topic: Explore pricing for ADVIT Studio).",
+      "claims": ["2x faster DL application development", "Massive scaling: location, time, framework and hardware agnostic", "Licensable or subscription-based"],
+      "release_notes_url": "https://automatonai.com/release-notes/",
+      "ctas": ["Sign up for early access", "Request a demo", "Download technical datasheet (link not live)"]
+    },
+    {
+      "id": "advit-data-labeling-tool",
+      "name": "ADVIT data labeling and annotation tool",
+      "urls": ["https://automatonai.com/products/advit-data-labelling/"],
+      "category": "Tool",
+      "one_liner": "AI-assisted annotation platform for creating and managing training data.",
+      "label_types": ["Bounding box", "Semantic segmentation", "Key point", "Text", "Polygon", "Lines and splines", "Cuboid (3D bounding box)", "3D point cloud (LiDAR)"],
+      "differentiators": [
+        "Hierarchical attribute tagging (example given: bread, then bakery product, then blueberry streusel bread)",
+        "Multi-camera video synchronisation with frame-level timestamps and same object ID across cameras",
+        "White-label automated labeling that can plug into an enterprise data pipeline"
+      ],
+      "claims": ["60% reduction in labeling time per label", "About half the market cost", "Separate QA team reviews 100% of data", "Uses in-house full-time annotators with human in the loop", "No need to share data on the cloud; encryption of proprietary data"]
+    },
+    {
+      "id": "adapt-ai",
+      "name": "ADAPT AI",
+      "urls": ["https://automatonai.com/products/adapt-ai/"],
+      "category": "AutoML",
+      "one_liner": "Automatic machine learning platform so expert and junior data scientists can build trusted models faster.",
+      "capabilities": ["Automatic feature engineering", "Model validation, tuning and selection", "Deployment", "ML interpretability", "Time-series support", "Automatic pipeline generation for scoring", "Exploratory data analysis", "Automatic visualisation", "Data preprocessing", "Business reporting", "Continuous evaluation", "Predictive forecasting"],
+      "claims": ["Tasks that took weeks or months finish in minutes or hours"]
+    },
+    {
+      "id": "advit-ai-labs",
+      "name": "ADVIT AI Labs",
+      "urls": ["https://automatonai.com/advit-ai-labs/"],
+      "category": "Education and research",
+      "one_liner": "Turnkey AI Centre of Excellence for students, researchers and institutions.",
+      "audiences": ["Students and researchers", "Researcher teams", "Educational institutes"],
+      "features": ["Industry expert assistance", "Access to community AI models", "AI project and dataset assistance", "Access to AI infrastructure", "Real-time deployment on edge devices"],
+      "student_tools": ["Dataset builder", "Dataset management", "Runtime monitoring and QA", "Shared GPUs", "Shared Jupyter", "Downloadable Docker for inference", "Model builder", "Develop on real-world data"],
+      "pricing": "Pricing page linked from the site returned 404; direct enquiries to Connect."
+    },
+    {
+      "id": "docugpt",
+      "name": "DocuGPT",
+      "urls": ["https://automatonai.com/products/docugpt/ (404 at crawl time)"],
+      "category": "Document AI",
+      "one_liner": "Conversational AI for enterprise documents: query, summarise and extract data.",
+      "claims": ["99.2% document extraction accuracy on RFPs, contracts and technical specs (homepage)", "Full audit trails", "Described as having zero hallucinations (Home V3 draft page; treat cautiously)"],
+      "used_for": ["KYC automation, fraud detection and loan document processing in banking (homepage)"],
+      "status": "Named on homepage and V2 pages; product page was not reachable, so features are limited to what is listed here."
+    },
+    {
+      "id": "tenderai",
+      "name": "TenderAI",
+      "urls": ["https://automatonai.com/products/tenderai/ (404 at crawl time)"],
+      "category": "Unknown",
+      "status": "Named in the site footer only. No description available. Do not describe its features."
+    },
+    {
+      "id": "drone-studio",
+      "name": "Drone Studio / Drone industry page",
+      "urls": ["https://automatonai.com/drone/"],
+      "category": "Industry solution",
+      "one_liner": "Real-time visual analytics to make AI adoption easier for drones.",
+      "use_cases": ["Agriculture: crop monitoring, irrigation management, fertiliser and pesticide application", "Construction and infrastructure: site monitoring, land surveying, inspection", "Search and rescue: thermal imaging reconnaissance", "Logistics and delivery: last-mile delivery in areas with limited infrastructure", "Government and defence: surveillance and reconnaissance"],
+      "how_automaton_helps": ["AI consultancy", "Pre-built models", "Custom AI solutions"]
+    }
+  ],
+
+  "services": [
+    {
+      "id": "data-labeling-service",
+      "name": "Data Labeling (fully managed)",
+      "url": "https://automatonai.com/products/data-labeling/",
+      "summary": "Human-powered annotation teams using the ADVIT platform, positioned as a cost-effective backend for AI projects.",
+      "rationale_given": "Around 83% of AI project time goes to gathering, cleaning and labeling data.",
+      "process": ["Data collection (upload in any format)", "Annotation workforce assigned to the project", "Multi-layer quality assurance", "Delivery in any specified format"],
+      "annotation_types": ["Semantic segmentation", "3D point cloud", "Bounding box", "Text annotation", "Key point", "Polygon", "Cuboid"]
+    },
+    {
+      "id": "custom-ai-application",
+      "name": "Custom AI Application",
+      "url": "https://automatonai.com/custom-ai-application/",
+      "summary": "End-to-end custom AI apps built for a customer's own process, from concept to deployment.",
+      "process": ["AI consultancy", "Data processing (collection, cleaning, mining, labeling, management)", "ML model selection (train, validate, retrain)", "Model optimisation (throughput, latency, memory and energy constraints, hardware-specific tuning)", "Deployment for real-time testing", "Application maintenance"],
+      "approach_points": ["End to end, combinable with other APIs", "Integrate models into existing apps", "Stringent software QA", "Deployment and maintenance support"]
+    },
+    {
+      "id": "ai-consultancy",
+      "name": "AI Consultancy",
+      "url": "https://automatonai.com/ai-consultancy/",
+      "summary": "Advisory service to help companies adopt AI step by step and reduce risk.",
+      "process": ["Introduction call", "Research on the client's AI capabilities", "On-site workshop", "Strategy report with stepwise plan and duration", "Conclusion call to confirm satisfaction"],
+      "advantages": ["Lead the market", "Choose the right path", "Unified team and AI process map"]
+    },
+    {
+      "id": "model-gallery",
+      "name": "Model Gallery",
+      "url": "https://automatonai.com/model-gallery/",
+      "summary": "Pre-built, ready-to-use image recognition models. Demo on request via Connect.",
+      "models_listed_on_index": "See model_gallery section."
+    },
+    {
+      "id": "data-zoo",
+      "name": "Data Zoo",
+      "url": "https://automatonai.com/data-zoo/",
+      "summary": "Marketplace for AI-ready annotated datasets. Quote on request via a form.",
+      "datasets_listed": "See datasets section."
+    }
+  ],
+
+  "model_gallery": [
+    {"name": "Pomegranate Disease Detection Segmentation Model", "purpose": "Detects presence and type of disease in pomegranate images."},
+    {"name": "Fault Detection in Power Lines", "purpose": "Finds damage on transmission lines such as broken or damaged insulators."},
+    {"name": "Car Parts Segmentation Model", "purpose": "Accident damage assessment and insurance claims processing."},
+    {"name": "Face Detection and Restoration", "purpose": "Detects faces and restores them using generative deep learning."},
+    {"name": "Image Enlightening", "purpose": "Brightens low-light images."},
+    {"name": "Image Dehazing", "purpose": "Reduces haze from fog or smoke."},
+    {"name": "Image Upscaling Model", "purpose": "Raises image or video-frame resolution with deep learning."},
+    {"name": "People and Vehicle Model", "purpose": "Pedestrian and vehicle detection, relevant to autonomous driving."},
+    {"name": "Man-Woman Model", "purpose": "Identifies men and women in real-time photo and video data."},
+    {"name": "Facial Expression Detection", "purpose": "Recognises emotion from images."},
+    {"name": "Face Detection Model", "purpose": "General face detection."}
+  ],
+
+  "datasets": [
+    {"name": "Diseased Corn Leaf Data", "type": "JPEG images, multiple disease categories", "resolutions": "4608x3456, 2448x3264, 3000x4000", "size_gb": 75, "labels": "Bounding box"},
+    {"name": "Vehicles Data", "type": "JPEG images, vehicle categories", "resolutions": "3840x2160", "size_gb": 34, "labels": "Bounding box"},
+    {"name": "Pomegranate Data", "type": "Raw images, multiple disease categories", "resolutions": "4032x3024, 2304x4096, 3456x4608", "size_gb": 107, "labels": "Bounding box"},
+    {"name": "Vehicles Data Captured Through Drones", "type": "Raw images", "classes": "Car, 2-wheeler, 3-wheeler, 4-wheeler, bus, heavy vehicle, cycle", "resolutions": "1920x1080, 640x352", "size_gb": 16, "labels": "Object detection and classification; bounding box and polygon"},
+    {"name": "Restaurant Data", "type": "Raw images", "classes": "Table, chair, person, waiter, plate (filled/empty), bowl (filled/empty)", "resolutions": "1920x1080", "size_gb": 32, "labels": "Bounding box"},
+    {"name": "Cotton Data", "type": "Raw images", "classes": "17 categories including grey mildew, rust, cotton aphid, jassid, whitefly, pink bollworm, bollworm, leaf curl, bacterial blight, boll rot, anthracnose, magnesium deficiency, healthy, foliage damage, cotton wilt, leaf perforator, alternaria leaf spot", "resolutions": "4608x2592, 2304x4096, 4096x2304, 3456x4608", "size_gb": 106, "labels": "Bounding box"},
+    {"name": "Buildings, Poles, Trees, Birds Drone Data", "type": "Raw images", "resolutions": "3840x2160", "size_gb": 255, "labels": "Bounding box"}
+  ],
+  "dataset_output_formats": ["COCO JSON", "YOLO TXT", "VOC Pascal XML", "CSV"],
+
+  "industries": [
+    {
+      "name": "Retail",
+      "url": "https://automatonai.com/industries/retail/",
+      "page_status": "fetched",
+      "summary": "AI for customer service, order management, feedback, retention, forecasting, inventory and supply chain.",
+      "use_cases": ["Virtual fitting rooms", "Price prediction and dynamic adjustment", "Customer behaviour prediction", "Cashier-free stores with chatbots", "Product categorisation with voice and visual search"],
+      "homepage_line": "Shelf monitoring, footfall analytics, demand forecasting and shrinkage prevention."
+    },
+    {
+      "name": "Banking & Finance",
+      "url": "https://automatonai.com/industries/banking-finance/",
+      "page_status": "fetched",
+      "summary": "Automating customer service, profile management and personalised marketing.",
+      "use_cases": ["Investment portfolio analysis", "Personalised offers and retention", "Customer categorisation and behaviour analysis", "Loan defaulter analysis (NPA reduction)", "Credit card fraud detection"],
+      "homepage_line": "KYC automation, fraud detection and loan document processing with DocuGPT; on-premise for RBI-grade data security."
+    },
+    {
+      "name": "Healthcare",
+      "url": "https://automatonai.com/industries/healthcare/",
+      "page_status": "not_reached",
+      "summary": "Automating patient data collection and management, insurance information and medical histories.",
+      "homepage_line": "Diagnostic imaging assistance, patient record analysis and clinical document extraction; described as HIPAA-ready and DPDP-compliant."
+    },
+    {
+      "name": "Insurance",
+      "url": "https://automatonai.com/industries/insurance/",
+      "page_status": "fetched",
+      "summary": "AI for customer care, fraud detection and claims management.",
+      "use_cases": ["Vehicle damage detection and repair cost analysis", "Life insurance photo analytics for instant quotes", "Automated claim processing", "Customer service chatbots and plan recommendation", "Property analysis and fraud detection"],
+      "homepage_line": "Claims processed 5x faster with visual analysis (company claim)."
+    },
+    {
+      "name": "Agriculture",
+      "url": "https://automatonai.com/industries/agriculture/",
+      "page_status": "fetched",
+      "summary": "AI and IoT for equipment automation, weather forecasting, soil and plant health and pesticide optimisation.",
+      "use_cases": ["Automated irrigation", "Drone crop monitoring and spraying", "Robot labour (fruit picking, weeding)", "Insect and pest early detection", "Greenhouse climate control"],
+      "homepage_line": "Drone crop health monitoring, disease detection and yield prediction; states 50,000+ hectares (figure appears in square brackets on the homepage, so it may be a placeholder)."
+    },
+    {
+      "name": "Automotive",
+      "url": "https://automatonai.com/industries/automotive/",
+      "page_status": "fetched",
+      "summary": "Autonomous vehicle programs and connected vehicle ecosystems.",
+      "use_cases": ["Autonomous transport", "Self-service diagnosis and wear tracking", "Driver behaviour and safety", "Connected vehicles and fleet management"],
+      "homepage_line": "ADAS data annotation, assembly-line defect detection and predictive maintenance."
+    },
+    {
+      "name": "Construction",
+      "url": "https://automatonai.com/industries/construction/",
+      "page_status": "not_reached",
+      "summary": "AI across design, planning, execution, marketing and maintenance.",
+      "homepage_line": "PPE compliance monitoring, drone or camera progress tracking and automated material estimation."
+    },
+    {
+      "name": "Smart City",
+      "url": "https://automatonai.com/industries/smart-city/",
+      "page_status": "not_reached",
+      "summary": "Digitalising city administration, centralising surveillance and simplifying waste management.",
+      "homepage_line": "Traffic management, surveillance analytics and waste optimisation with edge computer vision; states 100+ camera feeds (bracketed on the homepage, possibly a placeholder)."
+    },
+    {
+      "name": "Manufacturing",
+      "url": "https://automatonai.com/industries/manufacturing/",
+      "page_status": "not_reached",
+      "summary": "Managing data, improving production efficiency and cutting losses with AI and ML."
+    },
+    {
+      "name": "Dentistry",
+      "url": "https://automatonai.com/industries/dentistry/",
+      "page_status": "fetched",
+      "summary": "Automated clinic management, patient management and diagnosis support. Automaton offers data pre-processing and labeling with ADVIT and data licensing for dental businesses.",
+      "use_cases": ["Predicting orthodontic extractions from dental images", "Clinic management (appointments, patient histories, pre-assessment)", "Detection and diagnosis of dental complications"],
+      "homepage_line": "Caries detection, implant planning and pathology identification; built with what it calls India's first Dentistry AI Consortium."
+    },
+    {
+      "name": "Hospitality",
+      "url": "https://automatonai.com/industries/hospitality/",
+      "page_status": "not_reached",
+      "summary": "Hotel operations and revenue management software with personalised guest experience.",
+      "homepage_line": "Guest personalisation, automated facial-recognition check-in and kitchen safety monitoring."
+    }
+  ],
+
+  "clients_claimed": {
+    "headline_claims": ["Trusted by 50+ organisations (homepage body and Home V3)", "Trusted by ISRO, Apollo Tyres and 40+ enterprises (homepage meta description)", "100+ models trained and 50+ enterprise deployments (ADVIT Studio V2 page)"],
+    "logos_shown": ["ISRO", "Apollo Tyres", "Tech Mahindra", "WNS", "SATSure", "indrones", "SLK", "SYSNIK", "OJAS Aerospace", "Eazy ERP", "CreativeWorks.ai", "Legalbook.io", "Gruve"],
+    "case_studies_v2_page": [
+      {"customer": "Apollo Tyres", "sector": "Automotive", "summary": "Real-time defect detection on production lines with edge inference and automated retraining."},
+      {"customer": "ISRO / SATSure", "sector": "Defence and space", "summary": "Satellite imagery analysis with multi-spectral segmentation, land classification and change detection."},
+      {"customer": "MSRDC (Pune-Mumbai Expressway)", "sector": "Smart infrastructure", "summary": "Highway vehicle detection, speed estimation and incident detection on edge-deployed cameras."}
+    ],
+    "caveat": "The 40+ and 50+ figures conflict; customer relationships are stated by the company and not independently confirmed."
+  },
+
+  "homepage_metrics_claimed": [
+    {"metric": "99.2% document extraction accuracy", "product": "DocuGPT"},
+    {"metric": "10x faster model deployment", "product": "ADVIT Studio"},
+    {"metric": "100% on-premise data sovereignty", "product": "Platform"},
+    {"metric": "60% reduction in labeling time per label", "product": "ADVIT labeling tool"},
+    {"metric": "5x faster insurance claims processing", "product": "Insurance solutions"}
+  ],
+
+  "resources": {
+    "blogs": [
+      {"title": "Agentic AI for Indian Enterprises: Use Cases, Architecture and Deployment Guide (2026)", "url": "https://automatonai.com/agentic-ai-indian-enterprises-guide/", "published": "2026-03-19", "summary": "Defines agentic AI as goal-driven, multi-step, tool-using systems with memory and guardrails. Five use cases: government tender analysis, automobile warranty claims, agri-finance loan files, manufacturing quality incident reports, and enterprise Q&A that takes action. Design rules: define the agent's authority boundary, add human checkpoints, log every action. States their agentic framework on ADVIT keeps boundaries in configuration, has workflow interruption points and immutable audit logs."},
+      {"title": "LLMOps for Indian Enterprises: The Production Deployment Guide (2026)", "url": "https://automatonai.com/llmops-for-indian-enterprises/", "published": "2026-03-16", "summary": "Explains the gap between an LLM demo and production. Six pillars: prompt versioning, model lifecycle management, fine-tuning and RAG pipeline management, evaluation and quality monitoring, cost and latency optimisation, security and governance. Argues on-premise, hardware-agnostic LLMOps suits DPDP-regulated Indian sectors."},
+      {"title": "Challenges and Benefits of Data Labeling", "url": "https://automatonai.com/challenges-and-benefits-of-data-labeling/", "summary": "Listed on the resources page; content not read."},
+      {"title": "Restoration Test / Test Hero", "url": "https://automatonai.com/restoration-test/", "summary": "Placeholder test posts in the public resource library. Exclude from the agent."}
+    ],
+    "ebooks": [
+      {"title": "Deep Learning for Construction", "url": "https://automatonai.com/e-books/deep-learning-for-construction/"},
+      {"title": "Deep Learning for Manufacturing", "url": "https://automatonai.com/e-books/deep-learning-for-manufacturing/"},
+      {"title": "Deep Learning for Retail", "url": "https://automatonai.com/e-books/deep-learning-for-retail/"},
+      {"title": "Deep Learning for Traffic Analysis", "url": "https://automatonai.com/e-books/deep-learning-for-traffic-analysis/"},
+      {"title": "Deep Learning for AgriVision", "url": "https://automatonai.com/e-books/deep-learning-for-agrivision/"}
+    ],
+    "release_notes": {
+      "url": "https://automatonai.com/release-notes/",
+      "archive_months": "January 2021 to May 2022",
+      "latest_entry_may_2022": ["Dehazing model (image-to-image generator that removes haze)", "Face restoration model", "Super resolution model", "Enlighten model (low-light to bright-light)"]
+    },
+    "other": ["Newsletter: Become the Automaton AI Insider", "AI Community: https://automatonai.com/join-ai-community/", "YouTube demo of ADVIT: https://www.youtube.com/watch?v=7hqn-gcBzHU"]
+  },
+
+  "careers": {
+    "url": "https://automatonai.com/careers/",
+    "apply_url": "https://automatonai.com/grow-with-us/",
+    "email": "careers@automatonai.com",
+    "page_last_modified": "2026-07-24",
+    "openings_listed": ["Computer Vision Intern", "Software Engineer Backend", "Deep Learning Intern", "DevOps Engineer", "Marketing Manager", "Data Engineer (listed twice)", "AI Software Architect", "Computer Vision Software Engineer", "Deep Learning Engineer", "Data Annotator", "System C AI Hardware Modeling Intern", "Hardware Design Engineer", "GenAI Engineer", "BigData Engineer", "IT Engineer", "MLOps Engineer (listed twice)"],
+    "open_to_unlisted_domains": true,
+    "job_description_detail": {
+      "GenAI Engineer": {
+        "url": "https://automatonai.com/careers/genai-engineer/",
+        "duties": ["Design and implement AI solutions", "Build RAG models for retrieval and generation", "Integrate Azure, OpenAI GPT models and Hugging Face Transformers", "Use vector databases such as Redis and NoSQL stores", "Track NLP advances", "Wrap models in FastAPI for deployment"],
+        "requirements": ["Bachelor's, Master's or PhD in computer science, data science or related field", "2+ years in AI/ML development", "Experience with LLM-powered apps and RAG systems", "TensorFlow and PyTorch", "Python", "NLP (BERT, GPT, Transformers)", "Azure, AWS or GCP", "Stated as must be fluent in French", "Strong communication, leadership and strategic thinking"],
+        "context": "The role mentions the company working with foundational LLM companies by supplying proprietary data for fine-tuning and evaluation."
+      },
+      "other_roles": "Job descriptions for the remaining roles were not reachable."
+    }
+  },
+
+  "faq_from_site_content": [
+    {"q": "What is ADVIT Studio?", "a": "Automaton AI's platform for the full deep learning and LLM lifecycle: data labeling, feature engineering, training, deployment and monitoring, on-premise or cloud.", "source": "https://automatonai.com/advit-studio-v2/"},
+    {"q": "Can it run on-premise or air-gapped?", "a": "Yes. Automaton AI states on-premise is the default and air-gapped deployment is supported for defence and government.", "source": "https://automatonai.com/advit-studio-v2/"},
+    {"q": "Which frameworks are supported?", "a": "PyTorch, TensorFlow, ONNX, TensorRT, Hugging Face and JAX on the current page; older pages also list Keras and Darknet.", "source": "https://automatonai.com/advit-studio-v2/"},
+    {"q": "What annotation types are supported?", "a": "Bounding box, semantic segmentation, key point, text, polygon, lines and splines, cuboid and 3D point cloud.", "source": "https://automatonai.com/products/advit-data-labelling/"},
+    {"q": "Does Automaton AI offer managed labeling?", "a": "Yes: data collection, annotation workforce, multi-layer QA and delivery in any requested format.", "source": "https://automatonai.com/products/data-labeling/"},
+    {"q": "What is LLMOps?", "a": "The discipline of managing the full lifecycle of LLM systems in production, including prompt versioning, model registry, RAG pipelines, evaluation, cost control and governance. It differs from MLOps because LLMs are non-deterministic and sensitive to prompt and vendor model changes.", "source": "https://automatonai.com/llmops-for-indian-enterprises/"},
+    {"q": "How long does an LLMOps or agentic deployment take?", "a": "Automaton AI's blog estimates 4-6 weeks for a foundational LLMOps setup, 3-4 months for full maturity, 3-4 weeks for a single-workflow agentic system and 2-3 months for multi-workflow agent systems. These are estimates, not commitments.", "source": "https://automatonai.com/agentic-ai-indian-enterprises-guide/"},
+    {"q": "How do I get pricing?", "a": "Pricing is not published. Use the Connect form and choose Explore pricing for ADVIT Studio, or email info@automatonai.com.", "source": "https://automatonai.com/connect/"},
+    {"q": "How do I book a demo?", "a": "Use the Connect form (Schedule a demo) or the homepage form (Demo). The V2 page says a pilot can be scoped in under 2 weeks.", "source": "https://automatonai.com/connect/"},
+    {"q": "Where are they based?", "a": "Hinjewadi, Pune, Maharashtra, India.", "source": "https://automatonai.com/about-us/"}
+  ],
+
+  "site_map": {
+    "primary_nav": {
+      "About Us": "/about-us/",
+      "Products": ["/products/advit/", "/products/adapt-ai/", "/advit-ai-labs/"],
+      "Services": ["/products/data-labeling/", "/model-gallery/", "/custom-ai-application/", "/ai-consultancy/", "/data-zoo/"],
+      "Industries": "/industries/",
+      "Resources": "/resources/",
+      "Connect": "/connect/"
+    },
+    "footer_extras": ["/press-release/", "/release-notes/", "/careers/", "/privacy-policy/", "/terms-conditions/", "/join-ai-community/"],
+    "newer_nav_seen_on_v2_and_home_v3": ["/products/", "/solutions/", "/contact/", "/schedule-a-demo/", "/blogs/"]
+  },
+
+  "third_party": {
+    "note": "From outside sources (MCA records via Zauba Corp, Tracxn, LinkedIn). Not official company statements.",
+    "incorporation": "Incorporated 5 October 2018 as a private company, registered with the Registrar of Companies, Pune (CIN U72900PN2018PTC179407).",
+    "registered_address": "Bhosari, Pune 411039 (differs from the website address).",
+    "directors_on_record": ["Chandan Rupchand Muthiyan", "Girish Rupchand Muthiyan"],
+    "capital": "Authorised Rs. 500,000; paid-up Rs. 125,000 (per MCA data via Zauba Corp).",
+    "funding": "Tracxn lists a seed-stage company, founded 2019, with $377K raised from Narendra Firodia Unicorp.",
+    "hyderabad_office": "A LinkedIn post announced a new office at T-Hub, Hyderabad (date not confirmed)."
+  },
+
+  "known_inconsistencies": [
+    "Two address versions (footer vs Connect page).",
+    "Client-count claim differs: 40+ (meta description) vs 50+ (page body and V2 page).",
+    "The site mixes legacy positioning (deep learning and data labeling platform) with current positioning (LLMOps, DLOps, agentic AI). Prefer current positioning on conflicts.",
+    "Homepage industry stats 50,000+ hectares and 100+ camera feeds sit in square brackets, which suggests unconfirmed placeholders.",
+    "Retail and Automotive pages mention a proprietary product called CLARITY alongside ADVIT but it is not explained anywhere else. Do not describe it.",
+    "The Automotive page contains template text referring to a retail business. The Dentistry page uses a hospitality image.",
+    "The AI Labs page contains lorem ipsum under an Agriculture card.",
+    "The V2 page lists DocuGPT, TenderAI and Drone Studio, but the DocuGPT and TenderAI URLs returned 404.",
+    "Home V3 (/home-v3/) is an alternate homepage draft that is still indexed; the live homepage is /."
+  ],
+
+  "crawl_status": {
+    "fetched_ok": [
+      "/", "/home-v3/", "/about-us/", "/products/advit/", "/advit-studio/ (redirects to /advit-studio-v2/)", "/products/advit-data-labelling/", "/products/adapt-ai/", "/advit-ai-labs/",
+      "/products/data-labeling/", "/model-gallery/", "/custom-ai-application/", "/ai-consultancy/", "/data-zoo/", "/drone/",
+      "/industries/", "/industries/retail/", "/industries/banking-finance/", "/industries/insurance/", "/industries/agriculture/", "/industries/automotive/", "/industries/dentistry/",
+      "/resources/", "/release-notes/", "/careers/", "/careers/genai-engineer/", "/connect/",
+      "/agentic-ai-indian-enterprises-guide/", "/llmops-for-indian-enterprises/"
+    ],
+    "returned_404": ["/press-release/", "/advit-ai-labs-pricing/", "/products/docugpt/", "/products/tenderai/"],
+    "not_reached": {
+      "reason": "The fetch tool only opens URLs that have already appeared in search results or earlier fetches. These pages could not be surfaced by search.",
+      "industry_pages": ["/industries/healthcare/", "/industries/construction/", "/industries/smart-city/", "/industries/manufacturing/", "/industries/hospitality/"],
+      "model_gallery_detail_pages": "11 pages under /model-gallery/ (index descriptions captured)",
+      "job_descriptions": "17 pages under /careers/ (GenAI Engineer captured)",
+      "e_books": "5 pages under /e-books/ plus the index",
+      "other": ["/privacy-policy/", "/terms-conditions/", "/blogs/", "/challenges-and-benefits-of-data-labeling/", "/join-ai-community/", "/products/", "/solutions/", "/contact/", "/schedule-a-demo/", "/grow-with-us/", "/services/custom-ai-application-development/ (older page; snippet only)"]
+    }
+  },
+
+  "suggested_agent_rules": {
+    "note": "Recommendations by the author of this file, not content from the website.",
+    "rules": [
+      "Attribute metrics and customer names to the company and do not present them as verified facts.",
+      "Never invent pricing, SLAs, certifications or feature details for TenderAI, DocuGPT or CLARITY beyond what is listed here.",
+      "Route pricing, demo, partnership and custom-project questions to the Connect form or info@automatonai.com.",
+      "Route hiring questions to careers@automatonai.com and the listed openings.",
+      "When legacy and current positioning conflict, describe the current LLMOps and DLOps positioning first.",
+      "If a question falls in a not_reached area, say the information is not available and offer to connect the visitor with the team."
+    ]
+  }
+}

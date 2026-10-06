@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automaton AI - Floating Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2300B4D8'/><text y='65' x='20' font-size='50' font-weight='bold' fill='%230B132B'>A</text></svg>">
+</head>
+<body class="widget-host-body">
+
+  <!-- Floating Launcher Trigger Button (Bottom-Right Docked) -->
+  <button class="floating-chat-launcher" id="chatLauncherBtn" onclick="toggleChatWindow()" title="Chat with Automaton AI">
+    <div class="launcher-icon">
+      <!-- Bot Hex Glyph -->
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path>
+        <path d="M4 11a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7z"></path>
+        <circle cx="9" cy="14" r="1.5" fill="currentColor"></circle>
+        <circle cx="15" cy="14" r="1.5" fill="currentColor"></circle>
+      </svg>
+    </div>
+    <span class="launcher-label">Ask Automaton AI</span>
+    <span class="launcher-badge">1</span>
+    <span class="launcher-pulse"></span>
+  </button>
+
+  <!-- Standalone Floating Chatbot Window -->
+  <div class="standalone-floating-widget" id="floatingChatbotWindow">
+    
+    <!-- Widget Top Header -->
+    <div class="widget-header">
+      <div class="widget-header-title">
+        <div class="widget-avatar">A</div>
+        <div>
+          <h4>Automaton AI Assistant</h4>
+          <span><span class="dot-pulse"></span> Zero-Hallucination RAG • Pune</span>
+        </div>
+      </div>
+      <div class="widget-controls">
+        <button class="widget-btn-ctrl" title="Reset Session" onclick="clearActiveChat()">🔄</button>
+        <button class="widget-btn-ctrl" title="Minimize Widget" onclick="toggleChatWindow()">➖</button>
+      </div>
+    </div>
+
+    <!-- Scrollable Chat Stream -->
+    <div class="chat-stream-body" id="chatStreamBody">
+      <!-- Initial Onboarding Card -->
+      <div class="chat-welcome-card">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+          <strong style="color: var(--cyan-electric); font-size: 14px;">Welcome to Automaton AI</strong>
+          <span style="font-size: 10px; color: var(--orange-accent); background: rgba(255,107,53,0.15); padding: 2px 6px; border-radius: 4px; font-weight: 600;">SLA Grounded</span>
+        </div>
+        <p style="color: var(--slate-muted); font-size: 12px; line-height: 1.5;">
+          I am the official enterprise virtual assistant for <strong>Automaton AI Infosystem</strong> (Hinjewadi, Pune). 
+          Ask me about ADVIT Studio V2, Model Gallery, Data Zoo datasets, or scheduling an enterprise demo.
+        </p>
+
+        <!-- Suggested Prompt Chips -->
+        <div class="prompt-chips-wrap">
+          <button class="prompt-chip" onclick="handlePromptChip('What is ADVIT Studio V2?')">⚡ ADVIT Studio V2</button>
+          <button class="prompt-chip" onclick="handlePromptChip('How does managed data labeling work?')">🏷️ Managed Labeling</button>
+          <button class="prompt-chip" onclick="handlePromptChip('What datasets are in Data Zoo?')">🦁 Data Zoo Datasets</button>
+          <button class="prompt-chip" onclick="handlePromptChip('How much does ADVIT Studio cost?')">💰 Explore Pricing</button>
+          <button class="prompt-chip" onclick="handlePromptChip('Tell me about the Apollo Tyres case study')">🏭 Apollo Tyres</button>
+          <button class="prompt-chip" onclick="handlePromptChip('Where is Automaton AI headquartered?')">📍 Pune Office</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Widget Input Footer -->
+    <div class="chat-input-footer">
+      <form class="input-capsule" onsubmit="handleChatSubmit(event)">
+        <input 
+          type="text" 
+          class="chat-input-field" 
+          id="chatInputField" 
+          placeholder="Ask about ADVIT Studio, pricing, datasets..." 
+          autocomplete="off"
+        >
+        <button type="button" class="input-action-btn" title="Quick Prompt" onclick="handlePromptChip('What is ADVIT Studio V2?')">💡</button>
+        <button type="submit" class="input-action-btn btn-send" title="Send Message">➤</button>
+      </form>
+      <div class="input-disclaimer">
+        Attributed strictly to Automaton AI documentation • Zero Hallucination
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
